@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Nakedcapitalism.com"
+      },
+      "author": "Lambert Strether",
+      "title": "2:00PM Water Cooler 3/15/2022",
+      "description": "~ Today's Water Cooler ~",
+      "url": "https://www.nakedcapitalism.com/2022/03/200pm-water-cooler-3-15-2022.html",
+      "urlToImage": "https://www.nakedcapitalism.com/wp-content/uploads/2022/02/napoleon.jpg",
+      "publishedAt": "2022-03-15T18:00:27Z",
+      "content": "By Lambert Strether of Corrente\r\nBird Song of the Day\r\n“I hate it when the sounds of my breathing are captured in birdsong clips.” Not that obtrusive. Anyhow, I like some reality: Footsteps, breathin… [+31847 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Truth About Cars"
+      },
+      "author": "Matt Posky",
+      "title": "Tesla Raises Prices Twice This Week",
+      "description": "Tesla is receiving a lot of attention for having increased prices twice in one week. The Model 3, often presented as the company’s most-affordable option catering to the masses, now starts at $48,440 in the United States. Its crossover equivalent, the Model Y…",
+      "url": "https://www.thetruthaboutcars.com/2022/03/tesla-raises-prices-twice-this-week/",
+      "urlToImage": "https://www.thetruthaboutcars.com/wp-content/uploads/2021/08/shutterstock_471343589-1.jpg",
+      "publishedAt": "2022-03-15T18:00:17Z",
+      "content": "Tesla is receiving a lot of attention for having increased prices twice in one week. The Model 3, often presented as the company’s most-affordable option catering to the masses, now starts at $48,440… [+3341 chars]"
+    }
+  ]
+}
