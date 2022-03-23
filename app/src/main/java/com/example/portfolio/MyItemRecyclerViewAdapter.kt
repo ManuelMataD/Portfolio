@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.example.portfolio.data.News
 
 import com.example.portfolio.databinding.FragmentNewsBinding
-import com.squareup.picasso.Picasso
 
 class MyItemRecyclerViewAdapter(
     private val values: List<News>
@@ -28,7 +29,13 @@ class MyItemRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = values[position]
-        Picasso.get().load(item.urlToImage).into(holder.imageView)
+
+        Glide.with(holder.imageView.context)
+            .load(item.urlToImage)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .error(R.drawable.ic_image_not_found_24)
+            .into(holder.imageView)
+
         holder.titleView.text = item.title
         holder.contentView.text = item.content
     }
