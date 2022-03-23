@@ -1,12 +1,8 @@
 package com.example.portfolio
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
-import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.matcher.ViewMatchers.*
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
-import org.hamcrest.Matchers.containsString
 
 import org.junit.Test
 
